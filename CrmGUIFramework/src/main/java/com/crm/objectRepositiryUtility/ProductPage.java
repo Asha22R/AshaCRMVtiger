@@ -16,5 +16,8 @@ public class ProductPage {
 	public WebElement getAddProductBtn() {
 		return addProductBtn;
 	}
-
+	@FindBy(name = "search_text") private WebElement searchTxtbox;
+	public WebElement getSearchTxtbox() {
+		return searchTxtbox;
+	}
 }
