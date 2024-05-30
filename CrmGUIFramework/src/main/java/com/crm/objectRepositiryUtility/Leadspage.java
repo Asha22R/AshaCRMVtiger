@@ -13,7 +13,9 @@ public class Leadspage {
 	}
 	private @FindBy(xpath = "//img[@alt=\"Create Lead...\"]") WebElement addLeadBtn;
 	public WebElement getAddLeadBtn() {
-		return addLeadBtn;
+		return addLeadBtn;                              
+		
+		   
 
 	}
 
