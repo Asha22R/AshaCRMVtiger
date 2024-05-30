@@ -11,7 +11,7 @@ public class ProductPage {
 		this.driver= driver;
 		PageFactory.initElements(driver,this);
 	}
-	
+	            
 	@FindBy(xpath = "//img[@alt=\"Create Product...\"]") private WebElement addProductBtn;
 	public WebElement getAddProductBtn() {
 		return addProductBtn;
