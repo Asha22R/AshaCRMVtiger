@@ -16,5 +16,8 @@ public class ProductPage {
 	public WebElement getAddProductBtn() {
 		return addProductBtn;
 	}
-
+	@FindBy(name = "submit") private WebElement searchBtn;
+	public WebElement getSearchBtn() {
+		return searchBtn;
+	}
 }
